@@ -1,9 +1,6 @@
 <template>
   <div>
     <Slider />
-    <!-- =========================================================================================== -->
-    <!-- =========================================================================================== -->
-    <!-- These parts will be changed - Start Here -->
 
     <!-- Get Appointment Guideline Section Start Here -->
     <section class="get-apppointment-guideline">
@@ -18,7 +15,10 @@
         <div class="row">
           <div class="col-xl-3">
             <div class="app-guide">
-              <span><i class="fas fa-sign-in-alt"></i></span>
+              <font-awesome-icon
+                class="fa"
+                icon="sign-in-alt"
+              ></font-awesome-icon>
               <h3>Login</h3>
               <p>
                 At first you have to register by your email. Then login this
@@ -28,7 +28,12 @@
           </div>
           <div class="col-xl-3">
             <div class="app-guide">
-              <span><i class="fas fa-calendar-check"></i></span>
+              <span
+                ><font-awesome-icon
+                  icon="calendar-check"
+                  class="fa"
+                ></font-awesome-icon
+              ></span>
               <h3>Get an Appointment</h3>
               <p>
                 Then click the 'Get an Appointment' button. You can see the
@@ -38,7 +43,12 @@
           </div>
           <div class="col-xl-3">
             <div class="app-guide">
-              <span><i class="fas fa-info-circle"></i></span>
+              <span
+                ><font-awesome-icon
+                  icon="info-circle"
+                  class="fa"
+                ></font-awesome-icon
+              ></span>
               <h3>Give Your Information</h3>
               <p>
                 Give your information. Select appoinment date and patient's name
@@ -48,7 +58,9 @@
           </div>
           <div class="col-xl-3">
             <div class="app-guide">
-              <span><i class="fas fa-check"></i></span>
+              <span
+                ><font-awesome-icon icon="check" class="fa"></font-awesome-icon
+              ></span>
               <h3>Apply For Appoinment</h3>
               <p>
                 click the 'Apply' button for appoinment. You will get message.
@@ -88,15 +100,24 @@
               <div class="something-special">
                 <h3>Something Special</h3>
                 <p>
-                  <i class="fas fa-check-circle"></i>
+                  <font-awesome-icon
+                    class="fa"
+                    icon="check-circle"
+                  ></font-awesome-icon>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
                 <p>
-                  <i class="fas fa-check-circle"></i>
+                  <font-awesome-icon
+                    class="fa"
+                    icon="check-circle"
+                  ></font-awesome-icon>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
                 <p>
-                  <i class="fas fa-check-circle"></i>
+                  <font-awesome-icon
+                    class="fa"
+                    icon="check-circle"
+                  ></font-awesome-icon>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
               </div>
@@ -153,11 +174,19 @@
                 <div class="contact-area-main-title">ABC Hospitial</div>
                 <div class="contact-area-main-address">Dhanmondi, Dhaka.</div>
                 <div class="contact-area-main-phone">
-                  <span><i class="fas fa-phone-alt"></i></span>+88-0123456789,
-                  +88-0133456789, +88-0124456789
+                  <span
+                    ><font-awesome-icon
+                      class="fa"
+                      icon="phone-alt"
+                    ></font-awesome-icon></span
+                  >+88-0123456789, +88-0133456789, +88-0124456789
                 </div>
                 <div class="contact-area-main-email">
-                  <span><i class="fas fa-envelope"></i></span
+                  <span
+                    ><font-awesome-icon
+                      class="fa"
+                      icon="envelope"
+                    ></font-awesome-icon></span
                   >abchospital@abc.com
                 </div>
               </div>
@@ -167,35 +196,5 @@
       </div>
     </section>
     <!-- Contact Section End Here -->
-
-    <!-- These parts will be changed - Start Here -->
-    <!-- =========================================================================================== -->
-    <!-- =========================================================================================== -->
-
-    <!-- Footer Area Start Here -->
-    <section class="footer-area">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-6 copyright-info">
-            Copyright &copy; 2021 Doctor's Appointment
-          </div>
-          <div class="col-xl-6 designer-info">
-            Designed and developed by
-            <a href="https://www.alinsworld.com">Alinsworld</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Footer Area End Here -->
   </div>
 </template>
-
-<script>
-export default {};
-</script>
-
-<style>
-section.top-area {
-  background-color: #150333;
-}
-</style>

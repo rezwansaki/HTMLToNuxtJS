@@ -107,7 +107,7 @@ section.top-area {
   margin-top: 10px;
   margin-bottom: 42px;
 }
-.app-guide span i {
+.fa {
   font-size: 32px;
   color: #197e7c;
 }
@@ -155,9 +155,9 @@ section.about-doctor {
   font-size: 14px;
   line-height: normal;
 }
-.something-special p i {
+.something-special p .fa {
   color: #197e7c;
-  font-size: 14px;
+  font-size: 18px;
   padding-right: 5px;
 }
 /* Information About This Doctor End Here */
@@ -217,7 +217,7 @@ section.about-doctor {
   padding: 15px 15px;
   border-color: #197e7c;
 }
-.contact-area-main span i {
+.contact-area-main span .fa {
   color: #055b68;
   font-size: 12px;
   margin-right: 5px;
@@ -249,6 +249,9 @@ section.about-doctor {
 /* Footer Area End Here */
 
 /* Register Page Start Here */
+.register-container {
+  margin: 52px auto;
+}
 .register-info-area {
   margin: 0;
   background-color: #5fe9e6;
@@ -283,7 +286,7 @@ section.about-doctor {
   margin-bottom: 15px;
   background-color: #5fe9e6;
 }
-.registration-info-desc span i {
+.registration-info-desc span .fa {
   font-size: 15px;
   color: #1461a3;
   margin-right: 10px;
@@ -304,7 +307,7 @@ section.about-doctor {
 .login-form-area {
   width: 500px;
   height: auto;
-  margin: 0 auto;
+  margin: 52px auto;
   padding: 52px;
   border: 1px solid rgb(75, 74, 74);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -339,6 +342,9 @@ section.about-doctor {
 /* Contact Page End Here */
 
 /* Apply for Appointment Page Start Here */
+.appointment-area-container {
+  margin: 52px auto;
+}
 .appointment-area-main {
   padding: 32px;
   border: 1px solid rgb(18, 168, 228);
@@ -378,6 +384,9 @@ section.about-doctor {
 /* Apply for Appointment Page End Here */
 
 /* Assistant Section Start Here */
+.assistant-area-container {
+  margin: 52px auto;
+}
 .assistant-area-menubutton {
   margin-bottom: 10px;
   text-align: left;
@@ -394,3 +403,9 @@ section.about-doctor {
   color: white;
   background-color: #043a5e;
 } /* Assistant Section End Here */
+
+/* Error Page Start Here */
+.error-page-container {
+  padding: 100px;
+}
+/* Error Page End Here */

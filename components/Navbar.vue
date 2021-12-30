@@ -10,9 +10,9 @@
               class="navbar navbar-expand-lg navbar-light justify-content-end"
             >
               <div class="container-fluid">
-                <a class="navbar-brand alin" href="#">
+                <a class="navbar-brand" href="#">
                   <img
-                    src="assets/images/favicon.ico"
+                    src="/favicon.ico"
                     alt=""
                     width="30"
                     height="24"
@@ -37,48 +37,50 @@
                 >
                   <ul class="navbar-nav mb-2 mb-lg-0">
                     <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="index.html"
-                        >Doctor</a
+                      <nuxt-link class="nav-link" aria-current="page" to="/"
+                        >Home</nuxt-link
                       >
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="#"
+                      <nuxt-link
+                        class="nav-link"
+                        aria-current="page"
+                        to="doctor"
+                        >Doctor</nuxt-link
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link"
+                        aria-current="page"
+                        href="assistantarea"
                         >Assistant</a
                       >
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="about.html"
-                        >About</a
+                      <nuxt-link class="nav-link" aria-current="page" to="about"
+                        >About</nuxt-link
                       >
                     </li>
                     <li class="nav-item">
-                      <a
-                        class="nav-link"
-                        aria-current="page"
-                        href="contact.html"
+                      <a class="nav-link" aria-current="page" href="contact"
                         >Contact</a
                       >
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="login.html"
+                      <a class="nav-link" aria-current="page" href="login"
                         >Login</a
                       >
                     </li>
                     <li class="nav-item">
-                      <a
-                        class="nav-link"
-                        aria-current="page"
-                        href="register.html"
+                      <a class="nav-link" aria-current="page" href="register"
                         >Register</a
                       >
                     </li>
                     <button
                       class="btn mx-2 btn-outline-info btn-sm btn-appointment"
                       type="button"
-                      onclick="window.open('makeanappointment.html','_self')"
+                      onclick="window.open('makeanappointment','_self')"
                     >
                       Make an Appointment
                     </button>
@@ -94,13 +96,3 @@
   </section>
   <!-- Navbar Section End Here -->
 </template>
-
-<script>
-export default {};
-</script>
-
-<style>
-.alin {
-  color: yellow;
-}
-</style>
