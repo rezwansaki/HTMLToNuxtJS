@@ -10,7 +10,7 @@
               class="navbar navbar-expand-lg navbar-light justify-content-end"
             >
               <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+                <nuxt-link class="navbar-brand" to="/">
                   <img
                     src="/favicon.ico"
                     alt=""
@@ -19,7 +19,7 @@
                     class="d-inline-block align-text-top"
                   />
                   Doctor's Appointment
-                </a>
+                </nuxt-link>
                 <button
                   class="navbar-toggler"
                   type="button"
@@ -50,12 +50,12 @@
                       >
                     </li>
                     <li class="nav-item">
-                      <a
+                      <nuxt-link
                         class="nav-link"
                         aria-current="page"
-                        href="assistantarea"
-                        >Assistant</a
-                      >
+                        to="assistantarea"
+                        >Assistant
+                      </nuxt-link>
                     </li>
                     <li class="nav-item">
                       <nuxt-link class="nav-link" aria-current="page" to="about"
@@ -63,19 +63,25 @@
                       >
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="contact"
-                        >Contact</a
-                      >
+                      <nuxt-link
+                        class="nav-link"
+                        aria-current="page"
+                        to="contact"
+                        >Contact
+                      </nuxt-link>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="login"
-                        >Login</a
-                      >
+                      <nuxt-link class="nav-link" aria-current="page" to="login"
+                        >Login
+                      </nuxt-link>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="register"
-                        >Register</a
-                      >
+                      <nuxt-link
+                        class="nav-link"
+                        aria-current="page"
+                        to="register"
+                        >Register
+                      </nuxt-link>
                     </li>
                     <button
                       class="btn mx-2 btn-outline-info btn-sm btn-appointment"
