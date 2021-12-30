@@ -86,7 +86,7 @@
                     <button
                       class="btn mx-2 btn-outline-info btn-sm btn-appointment"
                       type="button"
-                      onclick="window.open('makeanappointment','_self')"
+                      @click="window.open('makeanappointment', '_self')"
                     >
                       Make an Appointment
                     </button>
