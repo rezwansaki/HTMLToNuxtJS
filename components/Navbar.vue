@@ -86,7 +86,7 @@
                     <button
                       class="btn mx-2 btn-outline-info btn-sm btn-appointment"
                       type="button"
-                      @click="window.open('makeanappointment', '_self')"
+                      @click="goAssistantareaPage()"
                     >
                       Make an Appointment
                     </button>
@@ -102,3 +102,13 @@
   </section>
   <!-- Navbar Section End Here -->
 </template>
+
+<script>
+export default {
+  methods: {
+    goAssistantareaPage() {
+      this.$router.push("/makeanappointment");
+    },
+  },
+};
+</script>
