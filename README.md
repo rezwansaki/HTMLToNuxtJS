@@ -1,4 +1,11 @@
-# htmltonuxtjs
+# HTML To Nuxt JS
+
+### Template mastering
+
+Bootstrap 5.1 HTML Template To Nuxt JS 2.x
+Used: Bootstrap 5.1, Fontawesome, Google Font and some images.
+
+This is not a complete project. This project is my practice work. I designed html page then try to convert into nuxt js.
 
 ## Build Setup
 
@@ -41,7 +48,6 @@ Layouts are a great help when you want to change the look and feel of your Nuxt 
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
 
-
 ### `pages`
 
 This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
@@ -67,4 +73,4 @@ More information about the usage of this directory in [the documentation](https:
 This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
-"# newNuxtJS" 
+"# newNuxtJS"
