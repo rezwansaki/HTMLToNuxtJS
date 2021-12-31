@@ -13,7 +13,11 @@
                 voluptas in. Quae ratione amet deleniti aut ullam. Quisquam,
                 quod. Ducimus, doloribus.
               </p>
-              <button type="button" class="btn btn-info btn-slider">
+              <button
+                type="button"
+                class="btn btn-info btn-slider"
+                @click="goAssistantareaPage()"
+              >
                 Make an Appointment
               </button>
             </div>
