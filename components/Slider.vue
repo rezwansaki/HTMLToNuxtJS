@@ -35,7 +35,13 @@
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    goAssistantareaPage() {
+      this.$router.push("/makeanappointment");
+    },
+  },
+};
 </script>
 
 <style></style>
